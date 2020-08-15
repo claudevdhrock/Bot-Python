@@ -1,9 +1,9 @@
-# Bot Configurable para ver Publicidad Automatica echo con Python.
+# Configurable Bot to see Automatic Advertising echo with Python.
 
-Bot aplicado en la Web www.ytverts.com
+Bot applied on the Web www.ytverts.com
 
-## Para Ejecutarlo:
-Instalar Selenium desde la pagina Oficial y descargar el Archivo WebDriver para su navegador, desde aqui:
+## To run it:
+Install Selenium from the Official page and download the WebDriver File for your browser, from here:
 https://selenium-python.readthedocs.io/installation.html
 
 ![bot](./img/bot.gif)
