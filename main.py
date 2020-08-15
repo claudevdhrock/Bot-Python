@@ -1,8 +1,23 @@
 from selenium import webdriver
 import time
 
+from model import ScraperBot, JAVASCRIPT_CLICK, CLICK
+
+
+
+def main():
+    bot = ScraperBot()
+    bot.ir_a('https://www.ytverts.com/')
+    login = bot.esperar_por(".//input[@name='login']", CLICK=CLICK)
+    login.send_keys('***********@*********.com')
+    contra = bot.esperar_por(".//input[@name='pass']", CLICK=CLICK)
+    contra.send_keys('************')
+    bot.esperar_por(".//button[text()='Login']", CLICK=CLICK)
+
+
 
 driver = webdriver.Chrome("chromedriver.exe")
+
 
 while(True):
     driver.get('https://www.ytverts.com/')
